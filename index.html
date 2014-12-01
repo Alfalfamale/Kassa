@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Kassa O.J.C. the Box</title>
+	<script src="mootools.js"></script>
+	<script src="script.js"></script>
+	<link href="styles.css" rel="stylesheet"/>
+</head>
+<body>
+<div id="registers-placeholder"></div>
+<div id="turnovers-placeholder"></div>
+<table>
+	<tr>
+		<th colspan="2">Dag omzet:</th>
+	</tr>
+	<tbody id="total-turnover-placeholder"></tbody>
+	<tr>
+		<td>Omzet totaal:</td>
+		<td id="Turnover">€</td>
+	</tr>
+</table>
+
+<table id="example-table" class="Hidden"></table>
+
+<table class="Hidden">
+	<tr id="example-register-top">
+		<th colspan="5" class="Name">name</th>
+	</tr>
+	<tr id="example-register-row">
+		<td class="Amount">€ 0</td>
+		<td>x</td>
+		<td><input type="text" size="1"></td>
+		<td>=</td>
+		<td class="RowTotal" data-total="0">€ 0</td>
+	</tr>
+	<tr id="example-register-bottom">
+		<td>Totaal:</td>
+		<td class="Total" colspan="4" data-amount="0">€ 0</td>
+	</tr>
+	<tr id="example-turnover-top">
+		<th class="Name" colspan="2">Omzet naam:</th>
+	</tr>
+	<tr id="example-turnover-row">
+		<td class="Name">Naam:</td>
+		<td class="RowTotal">€ 0</td>
+	</tr>
+	<tr id="example-turnover-bottom">
+		<td>Omzet:</td>
+		<td class="Total" data-amount="0">€ 0</td>
+	</tr>
+	<tr id="example-total-turnover-row">
+		<td class="Name">Omzet naam:</td>
+		<td class="Amount" data-amount="">€</td>
+	</tr>
+</table>
+</body>
+</html>
